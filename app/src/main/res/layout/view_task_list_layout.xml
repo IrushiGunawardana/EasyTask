@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    style="@style/CardViewStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginVertical="4dp"
@@ -26,8 +25,8 @@
                 android:id="@+id/titleTxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                android:textColor="@color/black"
+                android:text="Task"
+                android:textColor="@color/icons"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -36,8 +35,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="4dp"
-                android:text="Description"
-                android:textColor="@color/black"
+                android:text="Details"
+                android:textColor="@color/icons"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -46,6 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="4dp"
+                android:textColor="@color/icons"
                 android:text="Date"
                 android:textSize="18sp" />
         </LinearLayout>

@@ -2,5 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="mainBackgroundColor">#3F51B5</color>
+    <color name="mainBackgroundColor">#08BDAD</color>
+    <color name="textbox">#B5DCD7</color>
+    <color name="icons">#FF0B8A7E</color>
+
 </resources>

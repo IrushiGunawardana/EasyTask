@@ -25,18 +25,22 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="16dp"
-                android:text="Welcome Back"
+                android:text="EasyTask"
+                android:textColor="@color/white"
+                android:gravity="center"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/todayTxt"
+                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/welcomeTxt"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="4dp"
-                android:text="Today's Task"
+                android:text="Find your tasks here"
+                android:gravity="center"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -62,7 +66,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/ic_view_list"
-                    app:tint="@color/black" />
+                     />
             </LinearLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -82,8 +86,8 @@
                     android:id="@+id/edSearch"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:hint="Enter search title"
+                    android:background="@drawable/rounded_edittext_background"
+                    android:hint="Search Your Tasks Here"
                     android:imeOptions="actionSearch"
                     android:inputType="text" />
 
@@ -112,7 +116,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/icons"
         android:text="Add Task"
         android:textColor="@color/white"
         android:textSize="18sp"
