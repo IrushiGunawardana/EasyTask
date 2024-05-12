@@ -15,8 +15,7 @@ import com.example.easytask.models.Task
     version = 1,
     exportSchema = false
 )
-@TypeConverters(
-    TypeConverter::class)
+@TypeConverters(TypeConverter::class)
 abstract class TaskDatabase : RoomDatabase() {
 
     abstract val taskDao : TaskDao
